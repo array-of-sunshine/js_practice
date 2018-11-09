@@ -1,0 +1,35 @@
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+
+<div id="container" style="width:100%; height:400px;"></div>
+
+<script>
+  $(function () {
+      var myChart = Highcharts.chart('container', {
+          chart: {
+              type: 'bar'
+          },
+          title: {
+              text: 'My favorite pies'
+          },
+          xAxis: {
+              categories: ['Apples', 'Pumpkin', 'Pecan', 'another']
+          },
+          yAxis: {
+              title: {
+                  text: 'how many pies of that type that the person would eat'
+              }
+          },
+          series: [{
+              name: 'Brian',
+              data: [-5, 50, 0, 15]
+          }, {
+              name: 'Michael',
+              data: [0, 1, 5]
+          }]
+      });
+  });
+</script>
