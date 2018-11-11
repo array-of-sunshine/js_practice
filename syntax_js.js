@@ -18,7 +18,7 @@ function printNumbersDivisibleByThree() {
     index += 1;
   }
 }
-printNumbersDivisibleByThree();
+console.log(printNumbersDivisibleByThree);
 
 
 // # Write a method that accepts an array of strings and prints out every other string.
@@ -41,7 +41,7 @@ function printEveryOtherItem(strings) {
     index += 1;
   });
 }
-printEveryOtherItem(["a", "b", "c", "d", "e"]);
+// printEveryOtherItem(["a", "b", "c", "d", "e"]);
 
 
 // # Write a method that accepts an array of numbers and returns the sum.
@@ -60,7 +60,7 @@ function computeSum(numbers) {
   });
   return sum;
 }
-console.log(computeSum([2, 4, 5]));
+// console.log(computeSum([2, 4, 5]));
 
 // # Start with the hash: city_populations = {chi: 2700000}
 // # Add populations to the city_populations hash for New York City (8.4 million) and San Francisco (800,000).
@@ -72,7 +72,7 @@ console.log(computeSum([2, 4, 5]));
 var cityPopulations = {chi: 2700000};
 cityPopulations["nyc"] = 8400000;
 cityPopulations.sf = 800000;  // same as cityPopulations["sf"]
-console.log(cityPopulations);
+// console.log(cityPopulations);
 
 
 
