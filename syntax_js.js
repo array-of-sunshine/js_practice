@@ -18,7 +18,7 @@ function printNumbersDivisibleByThree() {
     index += 1;
   }
 }
-console.log(printNumbersDivisibleByThree);
+printNumbersDivisibleByThree();
 
 
 // # Write a method that accepts an array of strings and prints out every other string.

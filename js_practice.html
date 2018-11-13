@@ -1,0 +1,83 @@
+<script>
+  // # write a function
+  // # call the function
+  // # loop through something 100 times
+  // # print out the number from each iteration of the loop
+  // function oneToOneHundred() {
+  //   var index = 0;
+  //   while (index < 100) {
+  //     index += 1;
+  //     console.log(index);
+  //   }
+  // }
+
+  // oneToOneHundred();
+
+  // function everyOtherOneToOneHundred() {
+  //   var index = 0;
+  //   while (index < 100) {
+  //     index += 1;
+  //     if (index % 2 === 0) {
+  //       console.log(index);
+  //     }
+  //   }
+  // }
+
+  // everyOtherOneToOneHundred();
+
+  // function countOfFiftyFives(numbers) {
+  //   var count = 0;
+  //   numbers.forEach(function(number) {
+  //     if (number === 55) {
+  //       count++;
+  //     }
+  //   });
+  //   return count;
+  // }
+
+  // console.log(countOfFiftyFives([1,546,123,56,55,55,123,123,55,55]));
+
+  function awesomesauced(letters) {
+    var result = [];
+    for (var i = 0; i < letters.length; i++) {
+      result.push(letters[i]);
+      result.push('awesomesauce');
+    }
+    result.pop();
+    return result;
+  }
+
+  // console.log(awesomesauced(["a", "b", "c", "d", "e"]));
+
+  // var itemAmounts = {chair: 5, table: 2};
+  // // itemAmounts["desk"] = 7;
+  // itemAmounts.desk = 7;
+
+  // console.log(itemAmounts);
+
+  function factorial(number) {
+    var index = number;
+    var product = 1;
+    for (var i = 1; i <= number; i++) {
+      product *= i;
+      // console.log(product);
+    }
+    return product;
+  }
+
+  // console.log(factorial(5));
+
+  function combinationsOfNumbers(arrayOne, arrayTwo) {
+    var sums = [];
+    for (var i = 0; i < arrayOne.length; i++) {
+      for (var j = 0; j < arrayTwo.length; j++) {
+        sums.push(arrayOne[i] + arrayTwo[j]);
+      }
+    }
+    return sums;
+  }
+
+console.log(combinationsOfNumbers([1, 5, 10], [100, 500, 1000]));
+
+
+</script>

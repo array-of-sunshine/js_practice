@@ -1,4 +1,4 @@
-var fruits = ["apple", "pear", "honeydew"];
+var fuits = ["apple", "pear", "honeydew"];
 
 // for (var i = 0; i < fruits.length; i += 1) {
 //   console.log(fruits[i]);
