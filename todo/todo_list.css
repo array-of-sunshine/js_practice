@@ -1,0 +1,11 @@
+.red {
+  color: blue;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+.hidden {
+  display: none;
+}
