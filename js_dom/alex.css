@@ -1,3 +1,11 @@
 .hidden {
   display: none;
 }
+
+.red {
+  color: red;
+}
+
+.add-padding {
+  padding-left: 100px;
+}
