@@ -24,7 +24,7 @@ function hideParagraph() {
 function makeHeaderRed() {
   console.log('making the header red...');
   var header = document.querySelector('h1');
-  console.log(header);
+  // console.log(header.style);
   // header.classList.add('red');
   header.style.color = getRandomColor();
   header.classList.add('add-padding');
